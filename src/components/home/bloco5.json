@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_bloco5s",
+  "info": {
+    "displayName": "bloco5"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "quando": {
+      "type": "text"
+    }
+  }
+}

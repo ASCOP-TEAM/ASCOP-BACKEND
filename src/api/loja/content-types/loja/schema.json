@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "lojas",
+  "info": {
+    "singularName": "loja",
+    "pluralName": "lojas",
+    "displayName": "Loja"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isActivated": {
+      "type": "boolean",
+      "default": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "topblocksection": {
+      "displayName": "topblocksection",
+      "type": "component",
+      "repeatable": false,
+      "component": "top-block-section.topblocksection"
+    }
+  }
+}

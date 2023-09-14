@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_produtos_colors",
+  "info": {
+    "displayName": "color"
+  },
+  "options": {},
+  "attributes": {
+    "cor": {
+      "type": "enumeration",
+      "enum": [
+        "Branco",
+        "Preto",
+        "Vermelho",
+        "Azul",
+        "Verde",
+        "Amarelo",
+        "Laranja",
+        "Roxo",
+        "Rosa",
+        "Marrom",
+        "Cinza",
+        "Bege",
+        "Ouro",
+        "Prata",
+        "Coral",
+        "Vinho",
+        "Aqua",
+        "Lilas",
+        "Menta",
+        "Indigo",
+        "Ciano",
+        "Oliva",
+        "Safira"
+      ],
+      "required": true
+    }
+  }
+}

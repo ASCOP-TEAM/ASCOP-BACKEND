@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_bloco4s",
+  "info": {
+    "displayName": "bloco4"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "btn.botao"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

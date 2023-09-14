@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_top_block_section_topblocksections",
+  "info": {
+    "displayName": "topblocksection"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}

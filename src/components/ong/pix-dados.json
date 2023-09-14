@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ong_pix_dados",
+  "info": {
+    "displayName": "pixDados"
+  },
+  "options": {},
+  "attributes": {
+    "chave": {
+      "type": "text"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "transactionId": {
+      "type": "string",
+      "maxLength": 25
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

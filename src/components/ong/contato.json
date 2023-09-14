@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ong_contatoes",
+  "info": {
+    "displayName": "contato"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    }
+  }
+}

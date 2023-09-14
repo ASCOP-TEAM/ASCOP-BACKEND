@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contato_blocos",
+  "info": {
+    "displayName": "bloco"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    }
+  }
+}

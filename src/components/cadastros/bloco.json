@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_cadastros_blocos",
+  "info": {
+    "displayName": "bloco"
+  },
+  "options": {},
+  "attributes": {
+    "blockSumary": {
+      "displayName": "BlockSumary",
+      "type": "component",
+      "repeatable": false,
+      "component": "top-block-section.block-sumary"
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "btn.botao"
+    }
+  }
+}

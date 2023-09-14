@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_produtos_variantes",
+  "info": {
+    "displayName": "variantes"
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "displayName": "size",
+      "type": "component",
+      "repeatable": false,
+      "component": "produtos.size"
+    },
+    "color": {
+      "displayName": "color",
+      "type": "component",
+      "repeatable": false,
+      "component": "produtos.color",
+      "required": true
+    },
+    "quantidade": {
+      "type": "integer",
+      "default": 1,
+      "required": true,
+      "min": 1
+    },
+    "disponivel": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

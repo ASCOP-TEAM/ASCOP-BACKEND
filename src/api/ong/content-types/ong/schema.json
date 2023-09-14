@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "ongs",
+  "info": {
+    "singularName": "ong",
+    "pluralName": "ongs",
+    "displayName": "ONG",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isActivated": {
+      "type": "boolean",
+      "default": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "redesSociais": {
+      "displayName": "redesSociais",
+      "type": "component",
+      "repeatable": true,
+      "component": "ong.redes-sociais"
+    },
+    "dadosBancarios": {
+      "displayName": "dadosBancarios",
+      "type": "component",
+      "repeatable": false,
+      "component": "ong.dados-bancarios"
+    },
+    "contato": {
+      "displayName": "contato",
+      "type": "component",
+      "repeatable": false,
+      "component": "ong.contato"
+    },
+    "pixDados": {
+      "displayName": "pixDados",
+      "type": "component",
+      "repeatable": false,
+      "component": "ong.pix-dados"
+    },
+    "vakinha_url": {
+      "type": "string"
+    }
+  }
+}

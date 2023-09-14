@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "doacaos",
+  "info": {
+    "singularName": "doacao",
+    "pluralName": "doacaos",
+    "displayName": "Doacao"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isActivated": {
+      "type": "boolean",
+      "default": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "topblocksection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-block-section.topblocksection"
+    },
+    "bloco1": {
+      "displayName": "bloco1",
+      "type": "component",
+      "repeatable": false,
+      "component": "doacao.bloco1"
+    }
+  }
+}

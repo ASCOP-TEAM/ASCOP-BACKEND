@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ong_dados_bancarios",
+  "info": {
+    "displayName": "dadosBancarios"
+  },
+  "options": {},
+  "attributes": {
+    "banco": {
+      "type": "string"
+    },
+    "agencia": {
+      "type": "string"
+    },
+    "conta": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "contatoes",
+  "info": {
+    "singularName": "contato",
+    "pluralName": "contatoes",
+    "displayName": "Contato"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "isActivated": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "bloco1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contato.bloco"
+    },
+    "bloco2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contato.bloco"
+    }
+  }
+}

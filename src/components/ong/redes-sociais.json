@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ong_redes_sociais",
+  "info": {
+    "displayName": "redesSociais"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Twitter",
+        "Instagram",
+        "Linkedin",
+        "Whatsapp",
+        "Email"
+      ]
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

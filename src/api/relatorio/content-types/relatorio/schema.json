@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relatorios",
+  "info": {
+    "singularName": "relatorio",
+    "pluralName": "relatorios",
+    "displayName": "Relatorios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
+    },
+    "url_file": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

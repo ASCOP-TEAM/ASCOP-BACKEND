@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_produtos_colors_imgs",
+  "info": {
+    "displayName": "colors_imgs"
+  },
+  "options": {},
+  "attributes": {
+    "color_name": {
+      "type": "component",
+      "repeatable": false,
+      "component": "produtos.color"
+    },
+    "color_code": {
+      "type": "string",
+      "regex": "^#[0-9A-Fa-f]{6}$"
+    },
+    "img_color": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produtos",
+  "info": {
+    "singularName": "produto",
+    "pluralName": "produtos",
+    "displayName": "Produtos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "price": {
+      "type": "float",
+      "required": true
+    },
+    "highlight": {
+      "type": "boolean",
+      "default": false
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoria.categoria",
+      "inversedBy": "produtos"
+    },
+    "variantes": {
+      "displayName": "variantes",
+      "type": "component",
+      "repeatable": true,
+      "component": "produtos.variantes",
+      "required": true
+    },
+    "colors_imgs": {
+      "displayName": "colors_imgs",
+      "type": "component",
+      "repeatable": true,
+      "component": "produtos.colors-imgs"
+    }
+  }
+}

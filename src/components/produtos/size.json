@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_produtos_sizes",
+  "info": {
+    "displayName": "size"
+  },
+  "options": {},
+  "attributes": {
+    "tamanho": {
+      "type": "enumeration",
+      "enum": [
+        "Único",
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG",
+        "XG"
+      ],
+      "required": true
+    }
+  }
+}
