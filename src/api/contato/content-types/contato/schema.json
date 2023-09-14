@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contato",
     "pluralName": "contatoes",
-    "displayName": "Contato"
+    "displayName": "Contato",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,11 @@
       "type": "component",
       "repeatable": false,
       "component": "contato.bloco"
+    },
+    "topblocksection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-block-section.topblocksection"
     }
   }
 }
