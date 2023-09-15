@@ -4,7 +4,8 @@
   "info": {
     "singularName": "loja",
     "pluralName": "lojas",
-    "displayName": "Loja"
+    "displayName": "Loja",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

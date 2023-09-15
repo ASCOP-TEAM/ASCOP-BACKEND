@@ -1,7 +1,8 @@
 {
   "collectionName": "components_cadastros_blocos",
   "info": {
-    "displayName": "bloco"
+    "displayName": "bloco",
+    "description": ""
   },
   "options": {},
   "attributes": {

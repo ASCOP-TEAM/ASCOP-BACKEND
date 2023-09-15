@@ -29,6 +29,13 @@
       "type": "component",
       "repeatable": false,
       "component": "cadastros.bloco"
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
