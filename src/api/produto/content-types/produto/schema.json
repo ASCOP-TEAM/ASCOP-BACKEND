@@ -18,7 +18,8 @@
     },
     "description": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "maxLength": 341
     },
     "price": {
       "type": "float",

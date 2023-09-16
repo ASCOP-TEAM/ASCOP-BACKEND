@@ -45,6 +45,12 @@
     },
     "vakinha_url": {
       "type": "string"
+    },
+    "footer": {
+      "type": "dynamiczone",
+      "components": [
+        "ong.footer"
+      ]
     }
   }
 }

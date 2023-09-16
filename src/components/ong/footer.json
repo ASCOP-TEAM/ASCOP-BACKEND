@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ong_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "aboutproject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-block-section.block-sumary"
+    },
+    "linksUteis": {
+      "displayName": "LInks",
+      "type": "component",
+      "repeatable": true,
+      "component": "top-block-section.l-inks",
+      "max": 4
+    },
+    "importantLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-block-section.l-inks",
+      "max": 3
+    }
+  }
+}
