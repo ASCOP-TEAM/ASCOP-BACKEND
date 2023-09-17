@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cors",
+  "info": {
+    "singularName": "cor",
+    "pluralName": "cors",
+    "displayName": "Cores",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cor": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "color"
+    }
+  }
+}

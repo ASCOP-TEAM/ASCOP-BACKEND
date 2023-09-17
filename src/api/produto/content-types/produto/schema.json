@@ -66,6 +66,18 @@
       "type": "component",
       "repeatable": true,
       "component": "produtos.colors-imgs"
+    },
+    "size": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tamanho.tamanho",
+      "inversedBy": "produtos"
+    },
+    "color": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::cor.cor",
+      "inversedBy": "produtos"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tamanhos",
+  "info": {
+    "singularName": "tamanho",
+    "pluralName": "tamanhos",
+    "displayName": "Tamanhos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tamanho": {
+      "type": "string",
+      "unique": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "size"
+    }
+  }
+}
