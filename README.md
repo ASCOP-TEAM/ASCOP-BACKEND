@@ -28,7 +28,8 @@ Este guia descreve como configurar e administrar o sistema Strapi, incluindo a l
 
 <a name="login"></a>
 ## Login de Administrador {#login}
-1. Assista ao vídeo instrucional sobre como fazer login como administrador.
+1. Assista ao vídeo instrucional sobre como fazer login como administrador, link para caessar o painel: https://painel.ascopskt.com.br
+
 [Ir para a Introdução](#introducao)
    
 [![Video do YouTube](https://img.youtube.com/vi/b4SwIDswEBc/0.jpg)](https://www.youtube.com/watch?v=b4SwIDswEBc)
